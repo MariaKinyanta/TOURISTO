@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "961107746399",
+    "project_id": "touristo-2ca10",
+    "storage_bucket": "touristo-2ca10.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:961107746399:android:a8d8dc3922adef457545ea",
+        "android_client_info": {
+          "package_name": "org.unh.touristo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-dnl6lY4f43IwRzEWyKKDTIICePVbDVA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

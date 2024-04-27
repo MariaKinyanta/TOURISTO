@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Touristo</string>
+    <string name="title_activity_form">FormActivity</string>
+    <string name="title_activity_choixville">Choixville</string>
+    <string name="title_activity_choix_ville">choixVilleActivity</string>
+    <string name="title_activity_destination">DestinationActivity</string>
+    <string name="title_activity_information_destination">InformationDestinationActivity</string>
+    <string name="title_activity_restaurant">RestaurantActivity</string>
+    <string name="title_activity_hebergement">HebergementActivity</string>
+    <string name="title_activity_menu_restaurant">MenuRestaurantActivity</string>
+    <string name="title_activity_details">DetailsActivity</string>
+    <string name="title_activity_destination_favorite">DestinationFavoriteActivity</string>
+    <string name="title_activity_historique">HistoriqueActivity</string>
+    <string name="title_activity_mon_compte">MonCompteActivity</string>
+    <string name="title_activity_admin_lieu">AdminLieuActivity</string>
+    <string name="title_activity_compte_admin_lieu_touristique">CompteAdminLieuTouristiqueActivity
+    </string>
+    <string name="title_activity_ajouter_information_touristique">
+        AjouterInformationTouristiqueActivity
+    </string>
+    <string name="title_activity_admin_rest">AdminRestActivity</string>
+    <string name="title_activity_admin_hebergement">AdminHebergementActivity</string>
+    <string name="title_activity_destination_kolwezi">DestinationKolweziActivity</string>
+    <string name="title_activity_ajouter_element">AjouterElementActivity</string>
+    <string name="title_activity_ajouter_restaurant">AjouterRestaurantActivity</string>
+    <string name="title_activity_ajouter_hebergement">AjouterHebergementActivity</string>
+    <string name="title_activity_ajouter_chambre">AjouterChambreActivity</string>
+    <string name="title_activity_ajouter_chambres">AjouterChambresActivity</string>
+    <string name="title_activity_users">UsersActivity</string>
+    <string name="title_activity_destination_lubumbashi">DestinationLubumbashiActivity</string>
+    <string name="title_activity_chambre">ChambreActivity</string>
+    <string name="title_activity_details_restaurant">DetailsRestaurantActivity</string>
+    <string name="title_activity_news_restaurant">NewsRestaurantActivity</string>
+</resources>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Touristo"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".DetailsRestaurantActivity"
+            android:exported="false"
+            android:label="@string/title_activity_details_restaurant"
+            android:theme="@style/Theme.Touristo" />
+
+
+        <activity
+            android:name=".ChambreActivity"
+            android:exported="false"
+            android:label="@string/title_activity_chambre"
+            android:theme="@style/Theme.Touristo" />
+        <activity
+            android:name=".DestinationLubumbashiActivity"
+            android:exported="false"
+            android:label="@string/title_activity_destination_lubumbashi"
+            android:theme="@style/Theme.Touristo" />
+        <activity
+            android:name=".UsersActivity"
+            android:exported="true"
+            android:label="@string/title_activity_users"
+            android:theme="@style/Theme.Touristo"/>
+
+
+        <activity
+            android:name=".AjouterHebergementActivity"
+            android:exported="false"
+            android:label="@string/title_activity_ajouter_hebergement"
+            android:theme="@style/Theme.Touristo" />
+        <activity
+            android:name=".AjouterRestaurantActivity"
+            android:exported="false"
+            android:label="@string/title_activity_ajouter_restaurant"
+            android:theme="@style/Theme.Touristo" />
+        <activity
+            android:name=".AjouterElementActivity"
+            android:exported="false"
+            android:label="@string/title_activity_ajouter_element"
+            android:theme="@style/Theme.Touristo" />
+        <activity
+            android:name=".DestinationKolweziActivity"
+            android:exported="false"
+            android:label="@string/title_activity_destination_kolwezi"
+            android:theme="@style/Theme.Touristo" />
+        <activity
+            android:name=".AdminHebergementActivity"
+            android:exported="false"
+            android:label="@string/title_activity_admin_hebergement"
+            android:theme="@style/Theme.Touristo" />
+        <activity
+            android:name=".AdminRestActivity"
+            android:exported="false"
+            android:label="@string/title_activity_admin_rest"
+            android:theme="@style/Theme.Touristo" />
+        <activity
+            android:name=".AjouterInformationTouristiqueActivity"
+            android:exported="false"
+            android:label="@string/title_activity_ajouter_information_touristique"
+            android:theme="@style/Theme.Touristo" />
+        <activity
+            android:name=".CompteAdminLieuTouristiqueActivity"
+            android:exported="false"
+            android:label="@string/title_activity_compte_admin_lieu_touristique"
+            android:theme="@style/Theme.Touristo" />
+        <activity
+            android:name=".AdminLieuActivity"
+            android:exported="false"
+            android:label="@string/title_activity_admin_lieu"
+            android:theme="@style/Theme.Touristo" />
+        <activity
+            android:name=".MonCompteActivity"
+            android:exported="false"
+            android:label="@string/title_activity_mon_compte"
+            android:theme="@style/Theme.Touristo" />
+        <activity
+            android:name=".HistoriqueActivity"
+            android:exported="false"
+            android:label="@string/title_activity_historique"
+            android:theme="@style/Theme.Touristo" />
+        <activity
+            android:name=".DestinationFavoriteActivity"
+            android:exported="false"
+            android:label="@string/title_activity_destination_favorite"
+            android:theme="@style/Theme.Touristo" />
+        <activity
+            android:name=".MenuRestaurantActivity"
+            android:exported="false"
+            android:label="@string/title_activity_menu_restaurant"
+            android:theme="@style/Theme.Touristo" />
+        <activity
+            android:name=".HebergementActivity"
+            android:exported="false"
+            android:label="@string/title_activity_hebergement"
+            android:theme="@style/Theme.Touristo" />
+        <activity
+            android:name=".RestaurantActivity"
+            android:exported="false"
+            android:label="@string/title_activity_restaurant"
+            android:theme="@style/Theme.Touristo" />
+        <activity
+            android:name=".InformationDestinationActivity"
+            android:exported="false"
+            android:label="@string/title_activity_information_destination"
+            android:theme="@style/Theme.Touristo" />
+        <activity
+            android:name=".DestinationActivity"
+            android:exported="false"
+            android:label="@string/title_activity_destination"
+            android:theme="@style/Theme.Touristo" />
+        <activity
+            android:name=".choixVilleActivity"
+            android:exported="false"
+            android:label="@string/title_activity_choix_ville"
+            android:theme="@style/Theme.Touristo" />
+        <activity
+            android:name=".FormActivity"
+            android:exported="false"
+            android:label="@string/title_activity_form"
+            android:theme="@style/Theme.Touristo" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Touristo" >
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>
